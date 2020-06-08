@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>xmage-beta-server</Name>
+  <Repository>revice/xmage-beta-server</Repository>
+  <Registry>https://hub.docker.com/r/revice/xmage-beta-server</Registry>
+  <Network>eth0</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://hub.docker.com/r/revice/xmage-beta-server</Support>
+  <Project/>
+  <Overview>Minimal Docker XMage server using OpenJDK.</Overview>
+  <Category/>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>/plugins/dynamix.docker.manager/images/question.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1591587083</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>Minimal Docker XMage server using OpenJDK.</Description>
+  <Networking>
+    <Mode>eth0</Mode>
+    <Publish>
+      <Port>
+        <HostPort>17171</HostPort>
+        <ContainerPort>17171</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>17179</HostPort>
+        <ContainerPort>17179</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data/>
+  <Environment>
+    <Variable>
+      <Value>256M</Value>
+      <Name>JAVA_MIN_MEMORY</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>3G</Value>
+      <Name>JAVA_MAX_MEMORY</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value/>
+      <Name>XMAGE_DOCKER_SERVER_ADDRESS</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Labels/>
+  <Config Name="JAVA_MIN_MEMORY" Target="JAVA_MIN_MEMORY" Default="" Mode="" Description="Container Variable: JAVA_MIN_MEMORY" Type="Variable" Display="always" Required="false" Mask="false">256M</Config>
+  <Config Name="JAVA_MAX_MEMORY" Target="JAVA_MAX_MEMORY" Default="" Mode="" Description="Container Variable: JAVA_MAX_MEMORY" Type="Variable" Display="always" Required="false" Mask="false">3G</Config>
+  <Config Name="PORT" Target="17171" Default="" Mode="tcp" Description="Container Port: 17171" Type="Port" Display="always" Required="false" Mask="false">17171</Config>
+  <Config Name="SECONDARY_PORT" Target="17179" Default="" Mode="tcp" Description="Container Port: 17179" Type="Port" Display="always" Required="false" Mask="false">17179</Config>
+  <Config Name="XMAGE_DOCKER_SERVER_ADDRESS" Target="XMAGE_DOCKER_SERVER_ADDRESS" Default="" Mode="" Description="Container Variable: XMAGE_DOCKER_SERVER_ADDRESS" Type="Variable" Display="always" Required="false" Mask="false"/>
+</Container>
