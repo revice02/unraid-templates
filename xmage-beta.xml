@@ -9,18 +9,18 @@
   <Privileged>false</Privileged>
   <Support>https://hub.docker.com/r/revice/xmage-beta-server</Support>
   <Project/>
-  <Overview>Minimal Docker XMage server using OpenJDK.</Overview>
-  <Category/>
+  <Overview>Minimal Docker XMage BETA server using OpenJDK.</Overview>
+  <Category>GameServers:</Category>
   <WebUI/>
   <TemplateURL/>
   <Icon>https://github.com/revice02/unraid-templates/blob/master/xmage.png</Icon>
-  <ExtraParams/>
+  <ExtraParams>--add-host hostname:ip_address</ExtraParams>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1591587083</DateInstalled>
+  <DateInstalled>1591636948</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Description>Minimal Docker XMage server using OpenJDK.</Description>
+  <Description>Minimal Docker XMage BETA server using OpenJDK.</Description>
   <Networking>
     <Mode>eth0</Mode>
     <Publish>
