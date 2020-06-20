@@ -17,12 +17,12 @@
   <ExtraParams>--add-host hostname:ip_address</ExtraParams>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1591636948</DateInstalled>
+  <DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Description>Minimal Docker XMage BETA server using OpenJDK.</Description>
   <Networking>
-    <Mode>eth0</Mode>
+    <Mode>bridge</Mode>
     <Publish>
       <Port>
         <HostPort>17171</HostPort>
